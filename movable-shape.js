@@ -1,3 +1,4 @@
+
 var movableShape = {
 	// x and y indicate the current position of the shape
   // x and y can be offset in setup() to move the shape wherever you'd like it to go
@@ -6,7 +7,7 @@ var movableShape = {
 	// origin is used to store the original position of the shape
 	origin: { x: 0, y: 0},
 	// delta.x and delta.y indicate how much to move() the shape
-	speed: { x: 0, y: 0 },
+	speed: { x: 5, y: 0 },
 
 	/*
 		Put your shape(s) in drawShape()
@@ -39,5 +40,4 @@ var movableShape = {
 		this.x += this.speed.x;
 		this.y += this.speed.y;
 	}
-
 };
